@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript</title>
+</head>
+<body>
+	<h2><i>Salary & Bonus calaculator  which display the result in a div box.</i></h2>
+
+	  <script>
+
+         var baseSalary=Number(prompt(" Input your baseSalary"));
+           if(baseSalary>=15000)
+           {
+           	 var bonus=baseSalary*0.1;
+           	  baseSalary=bonus+baseSalary;
+           	  alert("The baseSalary with  bonus is " + baseSalary);
+           }
+
+           else
+           {
+           	bonus=baseSalary*0.05;
+           	  baseSalary=bonus+baseSalary;
+
+           	  alert("The baseSalary with bonus is " +baseSalary);
+           }
+
+           console.log("The baseSalary with added bonus is " + baseSalary);
+           document.write("The baseSalary with added bonus is " + baseSalary);
+	  </script>
+</body>
+</html>
